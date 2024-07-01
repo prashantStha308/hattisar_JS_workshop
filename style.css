@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 body{
-    background-image: linear-gradient( to bottom left, rgb(192, 192, 0) , rgb(15, 73, 51)  );
+    background-image: linear-gradient( to top right, rgb(28, 119, 10)  , rgb(251, 255, 34) );
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
@@ -10,5 +13,9 @@ body{
 h1{
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 5px;
 }
