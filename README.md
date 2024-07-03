@@ -5,4 +5,3 @@
 Day 1 of 7 <br>
 Day 2 of 7
 
-[Click Me](https://prashantstha308.github.io/hattisar_JS/)
