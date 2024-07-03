@@ -5,6 +5,15 @@ body{
     background-image: linear-gradient( to top right, rgb(28, 119, 10)  , rgb(251, 255, 34) );
     background-repeat: no-repeat;
     min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+#text-container{
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,4 +27,29 @@ h1{
     font-weight: 400;
     font-style: normal;
     word-spacing: 5px;
+}
+
+#button-container{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: rgb(24, 61, 20);
+    color: white;
+    transition: all 0.15s;
+}
+
+button:hover{
+
+    background-color: white;
+    color: rgb(24, 61, 20);
+
 }
