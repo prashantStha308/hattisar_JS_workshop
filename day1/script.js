@@ -26,7 +26,7 @@ const address = "Dharan";
 // Objects have key values pair.
 
 const Me = {
-    name : "Prashant",
+    Name : "Prashant",
     age : 20,
     address : "Dharan"
 }
