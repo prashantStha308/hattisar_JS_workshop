@@ -39,7 +39,7 @@ isRaining && console.log( "Carry Umbrella" ); // Short Circuit
 
 // if && bhanda aagadi  ko true xa bhnae run hunxa, else hunna
 
-// statement && expression
+// (Condition) && expression/Statement
 
 const temprature = 27;
 
