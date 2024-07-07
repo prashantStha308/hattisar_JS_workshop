@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ToDo | Workshop </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="todo-app">
+        <!-- Main container that contains all the app elements -->
+        <h1>Js Project Workshop</h1>
+
+        <!-- Input Section -->
+        <div>
+            <input type="text" name="todoInput" id="todoInput" placeholder="Enter Todo">
+            <button type="submit" onclick="addTask()">Add</button>
+        </div>
+
+        <!-- Search Section -->
+          <div>
+            <label for="searchInput">Search:</label>
+            <input type="text" name="searchInput" oninput="filterTasks()" id="searchInput">
+        </div>
+    
+        <!-- Main list -->
+        <ul id="todoList"></ul>
+    
+        <!-- Task counts -->
+        <div>
+            <p>Total Tasks : <span id="totalTasks">0</span></p>
+            <p>Completed Tasks : <span id="completedTasks">0</span></p>
+        </div>
+    
+        <!-- Button to reset the list -->
+        <button onclick="reset()"> Clear All </button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
