@@ -1,5 +1,5 @@
 body{
-    background-color: #ffeeee;
+    background-color: #f3c8c8;
     font-family: cursive;
     text-align: center;
     margin: 0;
@@ -60,7 +60,7 @@ ul{
 }
 
 li{
-    transition: all 0.15s ease;
+    transition: all 0.3s ease-out;
 }
 
 li.completed{
@@ -69,6 +69,6 @@ li.completed{
 }
 
 li:hover{
-    background-color: #ffeeee;
+    background-color: #fdecec;
     
 }
